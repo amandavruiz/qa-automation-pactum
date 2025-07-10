@@ -1,0 +1,8 @@
+{
+  "reporter": "mochawesome",
+  "reporter-options": {
+    "reportDir": "reports",
+    "reportFilename": "user-tests"
+  },
+  "timeout": 10000
+}
