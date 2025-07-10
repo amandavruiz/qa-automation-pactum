@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive tests --timeout 10000"
+    "test": "mocha tests/**/*.test.js --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=report,quiet=true"
   },
   "keywords": [],
   "author": "",
