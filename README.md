@@ -34,12 +34,12 @@ Inclui testes automatizados de:
 
 1. Clone o repositório:
 
-   git clone https://github.com/seuusuario/seuprojeto-api.git
-   cd seuprojeto-api
+   git clone https://github.com/amandavruiz/qa-automation-pactum.git
 
 2. Instale as dependências:
 
-   npm install
+   npm install pactum joi
+   npm install --save-dev mocha chai mochawesome
 
 3. Execute os testes:
 
